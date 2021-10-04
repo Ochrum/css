@@ -1,0 +1,98 @@
+ 
+ ol {
+    list-style-type:none;
+    padding:0;
+    margin:10%;
+    background-color:#81FCDE;
+    font-size:20px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+    
+  }
+
+
+  ol a {
+    display:block;
+    text-decoration:none;
+    color: #6DD6BC;
+    padding: 2px;
+  }
+
+  
+  ol > li {
+    float:left;
+    width:150px;
+    margin-left:1px;
+    background-color: #5AB09A;
+    height:2em;
+  }
+
+  
+  ol > li:first-child {
+    margin-left:0;
+  }
+
+  
+  ol > li:hover {
+    background-color: #397062 ;
+  }
+
+  
+  ol > li:hover > a {
+    color: #7AF0D3;
+  }
+
+  
+  ol > li:hover > ul {
+    display:block;
+    color: orchid;
+  }
+
+ 
+  ol > li > ul {
+    display:none;
+    list-style-type:none;
+    padding:1px;
+    margin:0;
+  }
+
+ 
+  ol > li > ul > li {
+    position:relative;
+    background-color:#EEE;
+  }
+
+
+  ol > li > ul > li > a {
+    border-top:1px solid #FFF;
+  }
+
+ 
+  ol > li > ul > li:hover {
+    background-color:#DDD;
+  }
+
+  
+  ol > li > ul > li:hover > a {
+    color:#09C;
+  }
+    
+    #menu > li > ul > li > ol {
+        display:none;
+        position:absolute;
+        left:100%;
+        width:150%;
+      }
+      
+      #menu > li > ul > li:hover > ol {
+        display:block;
+      }
+      
+      #jd .klapy
+      {
+        background-image: url('https://api.kubotastore.pl/img/500/500/resize/k/l/klapki_kubota_rzep_team_bride_1_1.png');
+        background-repeat:no-repeat;
+        background-position:right;
+        
+      }
